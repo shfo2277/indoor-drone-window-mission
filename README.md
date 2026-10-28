@@ -5,7 +5,7 @@
 GPS가 없는 실내 물류창고에서 드론이 **스스로 지도를 만들고, 장애물을 피해 경로를 계획하고, 카메라로 창문을 찾아 통과한 뒤 착륙**하는 자율비행 미션입니다.
 RGB-D 카메라로 지도를 작성하고(RTAB-Map), 포인트클라우드 기반 RRT\*로 경로를 계획하며, PX4 SITL + Gazebo Classic 시뮬레이션에서 ROS 2로 구현했습니다.
 
-> 경로 계획 알고리즘 개선(RRT\* 재계획 · 벤치마크)은 후속 저장소 [indoor-drone-obstacle-avoidance](https://github.com/shfo2277/indoor-drone-obstacle-avoidance)에 정리했습니다.
+> 경로 계획 알고리즘 개선(RRT\* 재계획 · 벤치마크)은 졸업 논문 저장소 [indoor-drone-obstacle-avoidance](https://github.com/shfo2277/indoor-drone-obstacle-avoidance)에 정리했습니다.
 
 ## 시연 영상
 
